@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Diverse Dining</title>
+
+
+    <!--Links style.css to HTML-->
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+    <!--Links jQuery library to HTML-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <div id = "topOfPage" class = "title">
+      <div class = "wrapper">
+        <nav class="nav-bar">
+          <li class="nav-links"> 
+            <a class = "navA" href = "/index.html">Home</a>
+          </li>
+          <li class="nav-links">
+            <a class = "navA" href="/index.html#aboutSection">About Us</a>
+          </li>
+          <li class="nav-links">
+            <a class = "navA" href="/HTMLFiles/page-three.html">Restaurant Search</a>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn"> TOP RESTAURANTS </a>
+            <div class="dropdown-content">
+                <a  class = "link1" href="/HTMLFiles/vegetarian.html">Top Vegetarian </a>
+                <a href="/HTMLFiles/allergy-safe.html">Top Allergy-Safe</a>
+                <a href="/HTMLFiles/glutenfree.html">Top Gluten-Free</a>
+            </div>
+          </li>
+          <li class="nav-links">
+            <a class = "navA" href="/HTMLFiles/feedback.html">Feedback</a>
+          </li>
+          
+        </nav>
+      </div>
+      
+     
+      <div class = "upperLeft">
+        <a href="/index.html"><img class="logo" src="/Assets/ddlogo.png" alt="Our logo"></a>
+        <h3 class = "logoAndName">diverse dining </h3>
+      </div>
+      <h1> diverse </h1>
+      <h2> dining </h2>
+      <p class = "caption"> assisting people with dietary restrictions one delicious meal at a time </p>
+      <button class = "findRestaurant"> <a href = "/HTMLFiles/page-three.html" >find me a restaurant</a></button>
+      <div class = "indicator">
+        <a href = "#aboutSection">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        </a>
+      </div>
+    </div>
+    <div id = "aboutSection" class = "about">
+      <h1 class = "aboutTitle">About Us</h1>
+    </div>
+    <div class = "aboutBody">
+      <img class = "aboutImage" src = "Assets/aboutImage.png">
+      <p class = "aboutText">Do you have an allergy or diet that limits your restaurant choices? We have a solution for you. Diverse Dining is an app that shows you restaurants that are friendly to your food restrictions. Created by 4 Kode With Klossy Scholars, we were inspired to make this website 
+      after seeing the struggles that many of our peers and loved ones go through everyday, trying to find a restaurant that suits their needs. We hope that this website will allow people to find delicious meals, no matter their dietary restrictions.</p>
+      <br class="clear"/>
+    </div>
+    <div class = "homeEnd">
+      <!-- <img class = "bg" src = "Assets/homebottom.png"> -->
+      <a href = "#topOfPage" <button class = "backToTop">Back to Top</button> </a>
+    </div>
+    <!--Links script.js to HTML. Do not code below this line-->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Diverse Dining</title>
+
+
+    <!--Links style.css to HTML-->
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+    <!--Links jQuery library to HTML-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <div class = "abouttitle">
+      <div class = "wrapper">
+        <nav class="nav-bar">
+          <li class="nav-links"> 
+            <a href = "/index.html">Home</a>
+          </li>
+          <li class="nav-links">
+            <a href="/index.html#aboutSection">About Us</a>
+          </li>
+          <li class="nav-links">
+            <a href="/HTMLFiles/page-three.html">Restaurant Search</a>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn"> TOP RESTAURANTS </a>
+            <div class="dropdown-content">
+                <a  class = "link1" href="/HTMLFiles/vegetarian.html">Top Vegetarian </a>
+                <a href="/HTMLFiles/allergy-safe.html">Top Allergy-Safe</a>
+                <a href="/HTMLFiles/glutenfree.html">Top Gluten-Free</a>
+            </div>
+          </li>
+          <li class="nav-links">
+            <a href="/HTMLFiles/feedback.html">Feedback</a>
+          </li>
+        </nav>
+      </div>
+      <div class = "upperLeft">
+        <a href="/index.html"><img class="logo" src="/Assets/ddlogo.png" alt="Our logo"></a>
+        <h3 class = "logoAndName">diverse dining </h3>
+      </div>
+      <img class = "hamburger" src = "/Assets/hamburger.png">
+      <h1 class = "searchTitle">restaurant search</h1>
+    </div>
+    <br class = "clear"/>
+    <div class = "foodForm">
+      <h3 class = "pleaseSelect">Where do you live?</h3>
+      <form class = "restrictions">
+        <label><input class = "planobox" type = "checkbox"> Plano, TX</label>
+        <label><input class = "sfbox" type = "checkbox"> San Francisco, CA</label>
+        
+      </form>
+      <h3 class = "pleaseSelect">Please select all your dietary restrictions</h3>
+      <form class = "restrictions">
+        <label><input class = "vegetarianbox" type = "checkbox"> vegetarian</label>
+        <label><input class = "veganbox" type = "checkbox"> vegan</label>
+        <label><input class = "glutenbox" type = "checkbox"> gluten-free</label>
+        <label><input class = "nutbox" type = "checkbox"> nut allergy</label>
+        <label><input class = "eggbox" type = "checkbox"> egg allergy</label>
+        <label><input class = "alliumbox" type = "checkbox"> allium allergy</label>
+        <input class = "submitsearch" type = "submit">
+      </form>
+      <div id = "restaurants" class = "restaurantOptions">
+        <!-- available options: veg, vegan, plano, sf, gluten, nut, egg, allium -->
+        
+        <!-- Plano vegetarian restaurants -->
+        <p class = "plano veg"> Samui thai <br> 5700 Legacy Dr a1, Plano, TX 75024 <br> https://www.samuithai.com/ </p>
+        <p class = "plano veg"> Sichuanese Cuisine <br> 315, 2001 Coit Rd, Plano, TX 75075 <br>  https://www.selfordersystem.com/sichuanesecuisine/</p>
+        <p class = "plano veg"> Torchy tacos <br> 1855 DALLAS PARKWAY, SUITE #600 PLANO, TX 75093 <br> https://torchystacos.com/location/plano/</p>
+        <p class = "plano veg"> Velvet tacos <br> 5013 W Park Blvd Plano, TX 75093 <br>https://www.velvettaco.com/location/plano/</p>
+        <p class = "plano veg"> Rajula kitchen <br> 820 Spring Creek Pkwy #304, Plano, TX 75023 <br> https://www.rkusa.com/</p>
+        <p class = "plano veg"> Village Burger Bar <br> Shops at Legacy 5700 Legacy Drive, A5 Plano, TX 75024 <br> https://www.shopsatlegacy.com/directory/village-burger-bar</p>
+        <p class = "plano veg"> Wild mirchi <br> Indian Food </br><br>2929 Custer Rd #315, Plano, TX 75075 <br> http://wildmirchiplano.com/ </p>
+        <p class = "plano vegan"> Jeff's Vegan <br>Asian and Thai</br><br> 3580 Preston Rd #107, Frisco, TX 75034 <br> https://jeffsvegan.squarespace.com/ </p>
+        <p class = "sf nut gluten"> Blue Plate <br> 3218 Mission St @ Valencia San Francisco, CA 94110 <br> http://www.blueplatesf.com/ </p>
+        <p class = "sf vegan veg egg gluten nut"> Dosa <br> 483 Sacramento St, 741 Diamond St <br> https://www.dosasf.com/ </p>
+        <p class = "sf egg nut"> Foreign Cinema <br> 2534 Mission Street San Francisco, CA 94110 <br> http://foreigncinema.com/ </p>
+        <p class = "sf nut veg"> Greens Restaurant <br> 2 Marina Boulevard, Fort Mason, Building A, San Francisco, CA 94123 <br> https://greensrestaurant.com/ </p>
+        <p class = "sf nut veg vegan gluten"> La Mediterranee <br> 288 Noe Street; 2210 Fillmore Street <br> https://cafelamed.com/ </p>
+        <p class = "sf nut gluten"> Tacko <br> 3115 Fillmore Street (Filbert), San Francisco, CA 94123 <br> http://www.tackosf.com/ </p>
+        <p class = "sf gluten"> Tony's Pizza Napolentana <br> 1570 Stockton St, San Francisco, CA 94133 <br> https://tonyspizzanapoletana.com/ </p>
+        <p class = "sf nut"> Zazie <br> 941 Cole St, San Francisco, CA 94117 <br> https://www.zaziesf.com/ </p>
+        <p class = "sf gluten"> Asian Box <br> 2031 Chestnut St, San Francisco, CA 94123 <br> https://www.asianbox.com/ </p>
+        <p class = "sf gluten"> Roam Burgers <br> 1923 Fillmore St, San Francisco, CA 94115 <br> https://www.roamburgers.com/ </p>
+        <p class = "sf vegan allium"> WildSeed <br> 2000 Union St, San Francisco, CA 94123 <br> https://www.wildseedsf.com/ </p>
+        <p class = "sf gluten"> As Quoted <br> 3613 Sacramento St, San Francisco, CA 94118 <br> http://www.eatasquoted.com/ </p>
+        <p class = "sf gluten"> Bella Trattoria Italiana <br> 3854 Geary Blvd, San Francisco, CA 94118 <br> https://osteriabella.com/ </p>
+        <p class = "sf gluten"> Nopalito <br> 306 Broderick St, San Francisco, CA 94117 <br> https://www.nopalitosf.com/ </p>
+        <p class = "sf gluten vegan veg"> Wholesome Bakery <br> 299 Divisadero St, San Francisco, CA 94117 <br> https://wholesome-bakery.myshopify.com/ </p>
+      </div>
+    </div>
+    <div class = "outercontainer" id = "outercontainer">
+    </div>
+  
+    <!--Links script.js to HTML. Do not code below this line-->
+    <script src="/script.js"></script>
+  </body>
+</html>
